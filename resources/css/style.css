@@ -1,0 +1,26 @@
+.main {
+  width: 700px;
+  margin-top: 20px;
+}
+.flex {
+  display: flex;
+}
+.right_text {
+  flex-shrink: 0;
+  margin: 0 10px;
+  line-height: 40px;
+}
+.main .ipt {
+  width: 300px;
+}
+.main .ipt.date_ipt {
+  width: 300px;
+}
+.label_div {
+  width: 123px;
+  font-size: 14px;
+  color: #606266;
+  line-height: 40px;
+  text-align: right;
+  padding: 0 12px 0 0;
+}
