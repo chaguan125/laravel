@@ -18,7 +18,7 @@ class TestController extends Controller
     public function redis(Request $request)
     {
 
-        $message = "信息1";
+        $message = "信息输出";
         Log::emergency($message);
         Log::alert($message);
         Log::critical($message);
